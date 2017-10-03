@@ -58,15 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/wileyfox/marmite/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/wileyfox/marmite/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
-    vendor/wileyfox/marmite/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
-    vendor/wileyfox/marmite/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
-    vendor/wileyfox/marmite/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
-    vendor/wileyfox/marmite/proprietary/etc/camera/ov8856_chromatix.xml:system/etc/camera/ov8856_chromatix.xml \
-    vendor/wileyfox/marmite/proprietary/etc/camera/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
-    vendor/wileyfox/marmite/proprietary/etc/camera/s5k3l8_chromatix.xml:system/etc/camera/s5k3l8_chromatix.xml \
-    vendor/wileyfox/marmite/proprietary/etc/camera/s5k3l8_f3l8yam_chromatix.xml:system/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
-    vendor/wileyfox/marmite/proprietary/etc/camera/s5k3p3_chromatix.xml:system/etc/camera/s5k3p3_chromatix.xml \
-    vendor/wileyfox/marmite/proprietary/etc/camera/s5k3p3_x50l_chromatix.xml:system/etc/camera/s5k3p3_x50l_chromatix.xml \
     vendor/wileyfox/marmite/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/wileyfox/marmite/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/wileyfox/marmite/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
