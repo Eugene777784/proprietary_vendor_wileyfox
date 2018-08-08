@@ -114,6 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/wileyfox/marmite/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/wileyfox/marmite/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/wileyfox/marmite/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/wileyfox/marmite/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/wileyfox/marmite/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/wileyfox/marmite/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
