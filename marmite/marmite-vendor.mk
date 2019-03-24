@@ -127,6 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/wileyfox/marmite/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/wileyfox/marmite/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
+    vendor/wileyfox/marmite/proprietary/vendor/bin/gx_fpd:system/vendor/bin/gx_fpd \
     vendor/wileyfox/marmite/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/wileyfox/marmite/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
     vendor/wileyfox/marmite/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
@@ -720,7 +721,9 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/hw/activity_recognition.msm8937.so:system/vendor/lib64/hw/activity_recognition.msm8937.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:system/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib64/hw/fingerprint.msm8937.so:system/vendor/lib64/hw/fingerprint.msm8937.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/hw/gatekeeper.msm8937.so:system/vendor/lib64/hw/gatekeeper.msm8937.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib64/hw/gxfingerprint.default.so:system/vendor/lib64/hw/gxfingerprint.default.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/hw/keystore.msm8937.so:system/vendor/lib64/hw/keystore.msm8937.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8937.so:system/vendor/lib64/hw/sound_trigger.primary.msm8937.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
@@ -775,6 +778,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib64/libalgoandroid.so:system/vendor/lib64/libalgoandroid.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
@@ -799,8 +803,11 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libfeedbackhandler.so:system/vendor/lib64/libfeedbackhandler.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib64/libfp_client.so:system/vendor/lib64/libfp_client.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib64/libfpservice.so:system/vendor/lib64/libfpservice.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib64/libgfcompat.so:system/vendor/lib64/libgfcompat.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libhdr_tm.so:system/vendor/lib64/libhdr_tm.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
